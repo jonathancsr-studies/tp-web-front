@@ -50,5 +50,9 @@
   "devDependencies": {
     "gh-pages": "^2.0.1"
   },
+  "devServer": {
+    "compress": true,
+    "disableHostCheck": true
+  },
   "proxy": "https://myuniverselol.herokuapp.com/"
 }
