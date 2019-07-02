@@ -1,5 +1,5 @@
 {
-  "name": "myuniverselol",
+  "name": "myunilol",
   "version": "0.2.0",
   "private": true,
   "homepage": "https://myunilol.herokuapp.com/",
@@ -10,6 +10,7 @@
     "base64-to-image": "^1.0.2",
     "bootstrap": "^4.3.1",
     "connected-react-router": "^6.4.0",
+    "cors": "^2.8.5",
     "disable-scroll": "^0.4.1",
     "image-to-base64": "^2.0.1",
     "jsonwebtoken": "^8.5.1",
