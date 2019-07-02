@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const instance = axios.create({
     baseURL: 'https://myuniverselol.herokuapp.com/',
-    timeout: 10000
+    timeout: 100000
 });
 
 export const register = newUser => {

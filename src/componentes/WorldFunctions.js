@@ -16,7 +16,7 @@ export const uploadImage = image => {
             console.log("Uploud Sucess = " + image.id_user)
         })
         .catch(error => {
-            console.log(error)
+            console.log(error.response)
         })
 }
 
@@ -31,7 +31,7 @@ export const getAllImages = user => {
             return res;
         })
         .catch(error => {
-            console.log(error)
+            console.log(error.response)
         })
 }
 
@@ -48,7 +48,7 @@ export const saveText = boxText => {
             return res;
         })
         .catch(error => {
-            console.log(error)
+            console.log(error.response)
         })
 }
 
@@ -62,6 +62,6 @@ export const getText = user => {
             return res;
         })
         .catch(error => {
-            console.log(error)
+            console.log(error.response)
         })
 }
