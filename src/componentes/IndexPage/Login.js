@@ -103,10 +103,6 @@ class Login extends Component {
             Button variant = "primary center blueBackgroundColor textGoldColor"
             type = "submit" >
             <
-            Link onClick = { this.userStatus } > teste < /Link> <
-            /Button> <
-            Facebook / >
-            <
             /Form> <
             /Modal.Body> <
             /Modal> <
