@@ -31,7 +31,6 @@ class boxText extends Component {
                 this.state.data = "<p>Adicione aqui suas principais anotações!</p><br/><strong><p>E customize como desejar. </p></strong> <br/><p></p><p></p>"
             } else {
                 this.state.data = res.data[0].text;
-                this.forceUpdate();
             }
             
         })

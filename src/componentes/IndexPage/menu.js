@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
 import { Link, withRouter } from 'react-router-dom'
-
+import Count from '../World/components/widgets/count/count'
 import './loginAndRegister.css'
 import Register from './Register'
 import Login from './Login'
