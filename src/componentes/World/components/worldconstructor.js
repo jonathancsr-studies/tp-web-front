@@ -1,7 +1,7 @@
 import axios from 'axios'
 const instance = axios.create({
     baseURL: 'https://myuniverselol.herokuapp.com/',
-    timeout: 1000
+    timeout: 10000
 });
 
 export const skyType = (numuser) => {

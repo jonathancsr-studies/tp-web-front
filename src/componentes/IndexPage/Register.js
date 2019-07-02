@@ -4,10 +4,9 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { Link, withRouter } from 'react-router-dom'
 import { register } from '../UserFunctions'
-
-
+import { login } from "../UserFunctions"
 import './loginAndRegister.css'
-
+const jwt = require("jsonwebtoken")
 class Register extends Component {
     constructor(props, context) {
         super(props, context);
@@ -43,7 +42,17 @@ class Register extends Component {
 
         register(user).then(res => {
             
-            this.props.history.push('/')
+            const userlogin = {
+                email: res.email,
+                password: res.password
+            }
+            console.log("USUARIO APOS REGISTRADO TENTANDO LOGAR")
+            console.log(res)
+            login(userlogin).then(res => {
+                if (res) {
+                    this.props.history.push('/World' + jwt.decode(localStorage.usertoken).id)
+                }
+            })
         })
     }
 

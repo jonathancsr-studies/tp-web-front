@@ -97,7 +97,7 @@ class Gallery extends Component {
       console.log(this.img)
 
       if (res.data.length == 0) {
-        urls.push('../../../../../static/fav.ico.png')
+        urls.push('https://uploaddeimagens.com.br/images/002/167/804/original/fav.ico.png?1562067402')
       } else {
         for (var i = 0; i < this.img.data.length; i++) {
           urls.push(this.img.data[i].base64)

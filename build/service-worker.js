@@ -33,7 +33,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+<<<<<<< HEAD
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/myuniverselol/index.html"), {
+=======
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/cefet-web-tp/index.html"), {
+>>>>>>> ad402a2b35425999215ea5e7aa695ada21273b4a
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

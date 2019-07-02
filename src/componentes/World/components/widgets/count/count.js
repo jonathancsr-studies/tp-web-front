@@ -28,10 +28,10 @@ class count extends Component {
     getUserData(user).then(res => {
       const user1 = {
         id_user: userId,
-        count: res.data.count + 1
+        count: res!=null && res.data != null ?  res.data.count + 1 : 1
       }
       updateCountUser(user1).then(res => {
-        this.state.count = res.data.count;
+        this.state.count = res!=null && res.data != null ?  res.data.count + 1 : 1
         this.forceUpdate();
       })
     })

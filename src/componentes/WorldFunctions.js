@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const instance = axios.create({
     baseURL: 'https://myuniverselol.herokuapp.com/',
-    timeout: 100000
+    timeout: 10000
 });
 
 export const uploadImage = image => {
@@ -32,7 +32,7 @@ export const getAllImages = user => {
 
 export const saveText = boxText => {
     instance.defaults.timeout = 50000
-    console.log("save box tesxt")
+    console.log("TENTANDO SALVAR TEXT")
     return instance
         .post('boxText/save', {
             text: boxText.text,
