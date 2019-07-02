@@ -1,0 +1,8 @@
+#sky{
+    background-image:url('../../../static/sky.png') ;
+    position: relative;
+    min-width: 100%;
+    background-repeat: round;
+    min-height: 800px;
+    position: relative;
+}

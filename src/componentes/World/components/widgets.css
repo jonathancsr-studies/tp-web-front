@@ -1,0 +1,18 @@
+.containerWidgets{
+    
+}
+
+
+.gallery{
+    width: 150px;
+    height: 150px;
+}
+.ul-widgets{
+    bottom: 80%;  
+    float: left;
+    position: absolute;
+    list-style-type: none;
+
+   
+}
+

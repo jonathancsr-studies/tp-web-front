@@ -1,0 +1,8 @@
+.floor{
+    background-image: url("../../../static/flor_1.png");
+    position: absolute;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 160px;
+    background-repeat: round;
+}

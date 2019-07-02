@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cefet-web-tp/static/css/main.247ba551.chunk.css",
+    "main.js": "/cefet-web-tp/static/js/main.de8b191f.chunk.js",
+    "main.js.map": "/cefet-web-tp/static/js/main.de8b191f.chunk.js.map",
+    "runtime~main.js": "/cefet-web-tp/static/js/runtime~main.f1ad8f86.js",
+    "runtime~main.js.map": "/cefet-web-tp/static/js/runtime~main.f1ad8f86.js.map",
+    "static/css/2.45088820.chunk.css": "/cefet-web-tp/static/css/2.45088820.chunk.css",
+    "static/js/2.b9acdf39.chunk.js": "/cefet-web-tp/static/js/2.b9acdf39.chunk.js",
+    "static/js/2.b9acdf39.chunk.js.map": "/cefet-web-tp/static/js/2.b9acdf39.chunk.js.map",
+    "index.html": "/cefet-web-tp/index.html",
+    "precache-manifest.bdd65b3e00eb436d03118248691e4297.js": "/cefet-web-tp/precache-manifest.bdd65b3e00eb436d03118248691e4297.js",
+    "service-worker.js": "/cefet-web-tp/service-worker.js",
+    "static/css/2.45088820.chunk.css.map": "/cefet-web-tp/static/css/2.45088820.chunk.css.map",
+    "static/css/main.247ba551.chunk.css.map": "/cefet-web-tp/static/css/main.247ba551.chunk.css.map",
+    "static/media/loginAndRegister.css": "/cefet-web-tp/static/media/img1.194815fb.jpg",
+    "static/media/UploadIcon.svg": "/cefet-web-tp/static/media/UploadIcon.1cedb6e9.svg",
+    "static/media/img8.jpg": "/cefet-web-tp/static/media/img8.3388e9ad.jpg",
+    "static/media/logo.png": "/cefet-web-tp/static/media/logo.f5c5cd14.png",
+    "static/media/placa.png": "/cefet-web-tp/static/media/placa.7e5a0c2c.png",
+    "static/media/sky.css": "/cefet-web-tp/static/media/sky.d83d1811.png"
+  }
+}

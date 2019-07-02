@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: helveticaneue;
+    src: url('./static/Friz Quadrata TT.ttf');
+}
+
+.logo{
+    min-width: 30%;
+    max-height: 50px;
+}
+
+.fontFamilySofia{
+    font-family: 'helveticaneue', cursive;
+}
+.fontFamilyLobster{
+font-family: 'helveticaneue', cursive;
+}
+
+.fontSmall{
+    font-size: 1.3em;
+}
+
+.fontMedium{
+    font-size: 16px;
+}
+
+.fontBig h1{
+    font-size: 3.5em;
+}
+
+.textCentral{
+    position: relative;
+    top: 18em;
+}
+.scrollDown{
+    position: relative;
+    top: 25em;
+}
+
+.scrollDown:hover{
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    color: #ffd37a;
+    text-decoration: none;  
+    display: table;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+.BackgroundInitial{
+    background: url("./static/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 47em;
+}
+
+/*Modal Register*/
+.modalLoginRegister{
+    background: 'transparent';
+    box-shadow: 'none';
+    border: 'none';
+}
+
+/*Footer*/
+.footerTextColor{
+    color: #f9c154;
+    text-decoration: none;
+}
+.footerTextColor:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerBackgroundColor{
+    background-color: #0f282f;
+}
+
+.blueBackgroundColor{
+    background-color: #0f282f;
+}
+
+.goldBackgroundColor{
+    background-color: #f9c154;
+}
+
+.textGoldColor{
+    color: #f9c154;
+    text-decoration: none; 
+    text-shadow: 3px 4px 4px rgba(15,40,47,0.48); ;
+}
+
+.textGoldColor:hover{
+    color: #fac968;
+    text-decoration: none;
+}
+
+.textBlueColor{
+    color: #0f282f;
+}
+
+.marginCenter{
+    align-content: center;
+}
+
+.conteudo{
+    margin: 2.5em 0;
+}
+
+.mrl-small{
+    margin: 0 1em; 
+}
+
+.buttons :hover{
+    box-shadow: #f9c154 5px 5px;
+    width: 120%;
+}
